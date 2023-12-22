@@ -11,6 +11,10 @@
 		1DC81EF12B358994001A8AA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC81EF02B358994001A8AA7 /* ContentView.swift */; };
 		1DC81EF32B358995001A8AA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC81EF22B358995001A8AA7 /* Assets.xcassets */; };
 		1DC81EF62B358995001A8AA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC81EF52B358995001A8AA7 /* Preview Assets.xcassets */; };
+		1DC81EFE2B358AE6001A8AA7 /* PicItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC81EFD2B358AE6001A8AA7 /* PicItem.swift */; };
+		1DC81F012B358B49001A8AA7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC81F002B358B49001A8AA7 /* Home.swift */; };
+		1DC81F032B359A00001A8AA7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC81F022B359A00001A8AA7 /* Post.swift */; };
+		1DC81F062B359FD6001A8AA7 /* OffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC81F052B359FD6001A8AA7 /* OffsetKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		1DC81EF02B358994001A8AA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DC81EF22B358995001A8AA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DC81EF52B358995001A8AA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DC81EFD2B358AE6001A8AA7 /* PicItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicItem.swift; sourceTree = "<group>"; };
+		1DC81F002B358B49001A8AA7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1DC81F022B359A00001A8AA7 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1DC81F052B359FD6001A8AA7 /* OffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				1DC81EEE2B358994001A8AA7 /* ImageViewerApp.swift */,
+				1DC81F042B359FB9001A8AA7 /* Helpers */,
+				1DC81EFF2B358B3E001A8AA7 /* View */,
+				1DC81EFC2B358AC1001A8AA7 /* Model */,
 				1DC81EF02B358994001A8AA7 /* ContentView.swift */,
 				1DC81EF22B358995001A8AA7 /* Assets.xcassets */,
 				1DC81EF42B358995001A8AA7 /* Preview Content */,
@@ -65,6 +76,31 @@
 				1DC81EF52B358995001A8AA7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DC81EFC2B358AC1001A8AA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DC81EFD2B358AE6001A8AA7 /* PicItem.swift */,
+				1DC81F022B359A00001A8AA7 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1DC81EFF2B358B3E001A8AA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1DC81F002B358B49001A8AA7 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1DC81F042B359FB9001A8AA7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1DC81F052B359FD6001A8AA7 /* OffsetKey.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC81F062B359FD6001A8AA7 /* OffsetKey.swift in Sources */,
 				1DC81EF12B358994001A8AA7 /* ContentView.swift in Sources */,
 				1DC81EEF2B358994001A8AA7 /* ImageViewerApp.swift in Sources */,
+				1DC81F012B358B49001A8AA7 /* Home.swift in Sources */,
+				1DC81EFE2B358AE6001A8AA7 /* PicItem.swift in Sources */,
+				1DC81F032B359A00001A8AA7 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
